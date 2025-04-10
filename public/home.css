@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .custom-card {
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .custom-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-header h1 {
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  
+  .section-title {
+    font-weight: 600;
+    color: #ba6767;
+    margin-bottom: 10px;
+  }
+  
+  .custom-input {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .upload-btn {
+    background: #007bff;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .upload-btn:hover {
+    background: #0056b3;
+  }
+  
+  .download-btn {
+    background: #28a745;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .download-btn:hover {
+    background: #1e7e34;
+  }
+  
+  hr {
+    margin: 30px 0;
+  }
+  

@@ -1,0 +1,22 @@
+{
+  "name": "rtf",
+  "version": "1.0.0",
+  "main": "db.js",
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start-both": "concurrently \"node server1.js\" \"node server2.js\""
+},
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2",
+    "multer": "^1.4.5-lts.2",
+    "multer-storage-cloudinary": "^4.0.0",
+    "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
