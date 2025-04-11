@@ -4,7 +4,7 @@
   "main": "db.js",
   "scripts": {
   "test": "echo \"Error: no test specified\" && exit 1",
-  "start-both": "concurrently \"node server1.js\" \"node server2.js\""
+  "start-both": "node server.js"
 },
   "author": "",
   "license": "ISC",
