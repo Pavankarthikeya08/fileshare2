@@ -15,7 +15,7 @@ const res = await fetch('/login', {
   });
   if(res.ok){
     alert("login successful");
-    window.location.href='http://localhost:3000/home.html';
+    window.location.href='home.html';
   }
   else{
     alert("invalid credentials try again or create account");
