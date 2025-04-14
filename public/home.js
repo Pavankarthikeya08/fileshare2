@@ -32,7 +32,7 @@ f2.addEventListener('click', async () => {
 });
 
 f5.addEventListener('click', () => {
-    let id=f4.innerText;
+    let id = f4.value.trim();  
     if (!id) {
         alert("No file ID to download.");
         return;
