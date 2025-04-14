@@ -32,8 +32,7 @@ f2.addEventListener('click', async () => {
 });
 
 f5.addEventListener('click', () => {
-    let randomId = f3.textContent.trim();
-
+    let id=f4.innerText;
     if (!randomId) {
         alert("No file ID to download.");
         return;
