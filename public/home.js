@@ -33,10 +33,10 @@ f2.addEventListener('click', async () => {
 
 f5.addEventListener('click', () => {
     let id=f4.innerText;
-    if (!randomId) {
+    if (!id) {
         alert("No file ID to download.");
         return;
     }
 
-    window.location.href = `/download/${randomId}`;
+    window.location.href = `/download/${id}`;
 });
