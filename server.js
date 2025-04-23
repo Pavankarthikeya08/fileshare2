@@ -10,8 +10,7 @@ app.use(express.urlencoded({extended:true}));
 const connectDB=require('./db.js');
 connectDB();
 app.get("/", (req, res) => {
-    //res.send("✅ Server is alive!");
-    res.sendFile(path.join(__dirname, "public", "login.html"));
+    res.sendFile(path.join(__dirname, "public", "home.html"));
   });
 app.use("/",router1);
 app.use("/",router2);
